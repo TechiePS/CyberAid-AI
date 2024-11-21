@@ -139,25 +139,23 @@ The text data has been preprocessed by:
 ----------------------------------------------------------------------------------------------------------------------------
 
 
-## Screenshots
-    Here are some screenshots of the application:
+## Application Screenshots
 
-    #### Home Page 
-    ![Home Page ](output/Prediction Result - Brave 21_Nov_2024 21_07_53.png)
-    *This is the main interface of the application, where users can navigate to various features.*
+### Home Page
+![Home Page](output/Prediction Result - Brave 21_Nov_2024 21_07_53.png)
+*This is the main interface of the application, where users can navigate to various features.*
 
-    #### Result Page
-    ![Result Page ](output/Prediction Result - Brave 21_Nov_2024 21_07_46.png)
-    *This page displays the prediction results based on user input.*
+### Result Page
+![Result Page](output/Prediction Result - Brave 21_Nov_2024 21_07_46.png)
+*This page displays the prediction results based on user input.*
 
-    #### Home Page (Regional language)
-    ![Home Page(complain in hindi) ](output/Prediction Result - Brave 21_Nov_2024 21_08_21.png)
-    *This version of the home page allows users to submit complaints in Hindi, making it accessible for Hindi-speaking users.*
+### Home Page (Regional Language)
+![Home Page (complaint in Hindi)](output/Prediction Result - Brave 21_Nov_2024 21_08_21.png)
+*This version of the home page allows users to submit complaints in Hindi, making it accessible for Hindi-speaking users.*
 
-    #### Result Page (Regional language)
-    ![Result Page ](output/Prediction Result - Brave 21_Nov_2024 21_08_31.png)
-    *This page shows the results for complaints made in Hindi, ensuring that users receive feedback in their preferred language.*
-
+### Result Page (Regional Language)
+![Result Page (complaint results in Hindi)](output/Prediction Result - Brave 21_Nov_2024 21_08_31.png)
+*This page shows the results for complaints made in Hindi, ensuring that users receive feedback in their preferred language.*
 
 ----------------------------------------------------------------------------------------------------------------------------
 
