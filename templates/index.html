@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/mainpage.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #e7f3ff;
+            border: 1px solid #b3d4fc;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #b3d4fc;
+            margin-bottom: 20px;
+            font-size: 16px;
+            resize: vertical;
+            background-color: #f9f9f9;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Enter Complaint Details for Classification</h2>
+        <form action="/predict" method="post">
+            <label for="complaint">Complaint Text:</label>
+            <textarea name="complaint" id="complaint" placeholder="Enter your complaint here..." required></textarea>
+            <input type="submit" value="Classify Complaint" class="btn">
+        </form>
+    </div>
+</body>
+
+</html>
