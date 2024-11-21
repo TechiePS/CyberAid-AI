@@ -48,6 +48,33 @@ The text data has been preprocessed by:
 
 ----------------------------------------------------------------------------------------------------------------------------
 
+
+### **Model Files**
+    Due to the large size of the model files, they have been hosted externally on Google Drive. You can access the model files necessary for running this project from the link below:
+
+    Download the Model Files
+        The entire model folder, including files such as .npy and other large model files, is stored on Google Drive. To use the model in this project, you need to download the following files from the provided Google Drive link:
+        https://drive.google.com/drive/folders/1eAs9merqdais7-bnjzFBMj_e_RKC8vs_?usp=drive_link
+
+
+### How to Use the Model Files:
+
+    Download the Files:
+        Click on the link above to access the CyberAid AI Model Files folder.
+
+    Extract the Files:
+        After downloading, extract the model files to a directory of your choice. This folder should include:
+        fasttext_model.bin.syn1neg.npy
+        fasttext_model.bin.wv.vectors_vocab.npy
+        fasttext_model.bin.wv.vectors_ngrams.npy
+        Any other model files you wish to use for the project.
+
+     Use in the Project:
+        Place these files in the models/ directory of your local project to use them for classification and prediction tasks.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
 ### ⚙️ **How to Run the Project**
 
 1. **Clone the Repository**:
